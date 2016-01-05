@@ -66,6 +66,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="index2.html" />
     <Content Include="index1.html" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
@@ -77,6 +78,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\index1.js" />
+    <Content Include="Scripts\index2.js" />
     <Content Include="Styles\Index.css" />
     <Content Include="Web.config" />
   </ItemGroup>
