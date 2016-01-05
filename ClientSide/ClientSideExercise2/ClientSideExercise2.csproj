@@ -9,12 +9,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{11564D63-3569-424E-88E7-5A9DBF54A1FD}</ProjectGuid>
+    <ProjectGuid>{F9B1D65C-9E8E-4BEC-B3BD-2D8B671D436F}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ClientSide</RootNamespace>
-    <AssemblyName>ClientSide</AssemblyName>
+    <RootNamespace>ClientSideExercise2</RootNamespace>
+    <AssemblyName>ClientSideExercise2</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -75,9 +75,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Scripts\Exercise.js" />
-    <Content Include="Index.html" />
-    <Content Include="Styles\Index.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -96,9 +93,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>2722</DevelopmentServerPort>
+          <DevelopmentServerPort>4487</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:2722/</IISUrl>
+          <IISUrl>http://localhost:4487/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
