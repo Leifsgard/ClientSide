@@ -1,6 +1,0 @@
-C:\Users\Rasmus\Desktop\Ny mapp (5)\Exercise2\bin\Exercise2.dll.config
-C:\Users\Rasmus\Desktop\Ny mapp (5)\Exercise2\bin\Exercise2.dll
-C:\Users\Rasmus\Desktop\Ny mapp (5)\Exercise2\bin\Exercise2.pdb
-C:\Users\Rasmus\Desktop\Ny mapp (5)\Exercise2\obj\Debug\Exercise2.csprojResolveAssemblyReference.cache
-C:\Users\Rasmus\Desktop\Ny mapp (5)\Exercise2\obj\Debug\Exercise2.dll
-C:\Users\Rasmus\Desktop\Ny mapp (5)\Exercise2\obj\Debug\Exercise2.pdb
