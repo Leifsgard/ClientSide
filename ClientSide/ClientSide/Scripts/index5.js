@@ -1,5 +1,4 @@
-﻿
-document.getElementById('Omvandla').addEventListener('click', calculate, false);
+﻿document.getElementById('Omvandla').addEventListener('click', calculate, false);
 
 function calculate() {
 
