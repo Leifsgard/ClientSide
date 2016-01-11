@@ -3,3 +3,14 @@
 #makeMeAnArray {
     background-color: hotpink;
 }
+.changedwords {
+    font-weight: bold;
+    color: orange;
+}
+#ptag1, #ptag2 {
+    border: 2px solid orange;
+}
+
+#checkaindexof {
+    border: 3px dotted lightblue;
+}
