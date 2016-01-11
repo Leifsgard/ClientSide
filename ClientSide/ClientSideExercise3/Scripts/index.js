@@ -47,11 +47,9 @@
                             + '</strong>'
                             + '</p>'
                             + '<p>'
-                            + '<strong class="color">price: </strong>'
-                            + '<span class="Orange">'
+                            + '<strong class="blue">price: </strong>'                      
                             + '$'
                             + val.price
-                            + '</span>'
                             + '<p>'
                             + '<strong class="color">about: </strong>'
                             + val.about
@@ -62,15 +60,15 @@
                         output += '<li>'
                             + '<p>'
                             + '<strong>'
+                            + '<span class="green">'
                             + val.name
+                            + '</span>'
                             + '</strong>'
                             + '</p>'
                              + '<p>'
-                            + '<strong class="color">price: </strong>'
-                            + '<span class="Blue">'
+                            + '<strong class="blue">price: </strong>'
                             + '$'
                             + val.price
-                            + '</span>'
                             + '<p>'
                             + '<strong class="color">about: </strong>'
                             + val.about
