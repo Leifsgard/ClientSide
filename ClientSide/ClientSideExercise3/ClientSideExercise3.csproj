@@ -66,9 +66,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\abstract-rainbow-wallpaper-bd5b4-set-as-desktop-1920x1200-187-kb.jpg" />
+    <Content Include="Images\Drink.png" />
+    <Content Include="Images\Hamburger.png" />
+    <Content Include="Images\Pizza.png" />
+    <Content Include="Images\Subs.PNG" />
     <Content Include="Menu.html" />
     <Content Include="packages.config" />
     <None Include="Scripts\jquery-2.2.0.intellisense.js" />
+    <Content Include="Scripts\index.js" />
     <Content Include="Scripts\jquery-2.2.0.js" />
     <Content Include="Scripts\jquery-2.2.0.min.js" />
     <Content Include="Scripts\jquery-2.2.0.min.map" />
@@ -80,11 +86,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Style\index.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
