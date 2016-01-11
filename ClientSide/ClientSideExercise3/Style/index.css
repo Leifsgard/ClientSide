@@ -2,11 +2,8 @@
 
 body {
     background: url('../Images/abstract-rainbow-wallpaper-bd5b4-set-as-desktop-1920x1200-187-kb.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     font-family: 'Indie Flower', cursive;
     font-size: 1.7rem;
@@ -17,10 +14,11 @@ h1, label, p {
 }
 
 img {
-    background-color: orange;
+    background-color: hotpink
     -ms-border-radius: 10px;
     border-radius: 10px;
     width: 150px;
+    text-align: left;
 }
 
 #productDiv ul {
@@ -28,9 +26,17 @@ img {
 }
 
 .color {
-    color: black;
+    color: fuchsia;
 }
 
-.lightCoral {
-    color: lightcoral;
+.orange {
+    color: orange;
+}
+
+.green {
+    color: lawngreen;
+}
+
+.blue {
+    color: deepskyblue;
 }
