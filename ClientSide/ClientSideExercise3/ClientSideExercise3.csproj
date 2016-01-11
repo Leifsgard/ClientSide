@@ -73,6 +73,7 @@
     <Content Include="Images\Subs.PNG" />
     <Content Include="Menu.html" />
     <Content Include="packages.config" />
+    <Content Include="products.json" />
     <None Include="Scripts\jquery-2.2.0.intellisense.js" />
     <Content Include="Scripts\index.js" />
     <Content Include="Scripts\jquery-2.2.0.js" />
