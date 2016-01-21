@@ -5,7 +5,7 @@ var discount = 0.30;
 var today = new Date;
 
 function HappyHourDiscount() {
-    if (today.getHours() >= 11 && today.getHours() <= 15) {
+    if (today.getHours() >= 17 && today.getHours() <= 20) {
         for (var i = 0; i < allPrices.length; i++) {
             allPrices[i].innerHTML = Number(allPrices[i].innerHTML) - (Number(allPrices[i].innerHTML) * discount);
         }
@@ -16,10 +16,35 @@ var theSpan = document.getElementsByTagName("span");
 
 //Method calls:
 HappyHourDiscount();
+BurgerPictures(theSpan);
+todaysOffer();
 
 //Adjust price function: (add .toFixed(2) for 2 decimals):
 
 /*Add pictures function to span:*/
+function BurgerPictures(elements) {
+
+    for (var i = 0; i < elements.length; i++) {
+        var img = document.createElement("img");
+        img.setAttribute("src", "~/../Images/Hamburger.png");
+        elements[i].appendChild(img);
+    }
+}
+
+
+/*Add todays offer function. 
+Make price background red. 
+Reduce price by another 20%:*/
+
+function todaysOffer() {
+    var weekDays = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+    var todaysExtraDiscount = document.getElementById(weekDays[today.getDay()]).innerHTML;
+    todaysExtraDiscount = Number(todaysExtraDiscount) - (Number(todaysExtraDiscount) * 0.2);
+    document.getElementById(weekDays[today.getDay()]).innerHTML = todaysExtraDiscount.toFixed(2);
+
+    var todaysSpecielOffer = document.getElementById(weekDays[today.getDay()]);
+    todaysSpecielOffer.className += " " + "todaysOfferColor";
+}
 
 /*Add todays offer function. 
 Make price background red. 

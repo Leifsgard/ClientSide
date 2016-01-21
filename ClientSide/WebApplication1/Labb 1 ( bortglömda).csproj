@@ -75,6 +75,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\Drink.png" />
+    <Content Include="Images\Hamburger.png" />
+    <Content Include="Images\Pizza.png" />
+    <Content Include="Images\Subs.PNG" />
     <Content Include="MenuPage.css" />
     <Content Include="MenuPage.html" />
     <Content Include="MenuPage.js" />
