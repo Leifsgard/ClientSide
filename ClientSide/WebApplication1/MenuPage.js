@@ -1,6 +1,21 @@
 ﻿//happy hour logic:
+var allPrices = document.getElementsByClassName("price");
+
+var discount = 0.30;
+var today = new Date;
+
+function HappyHourDiscount() {
+    if (today.getHours() >= 11 && today.getHours() <= 15) {
+        for (var i = 0; i < allPrices.length; i++) {
+            allPrices[i].innerHTML = Number(allPrices[i].innerHTML) - (Number(allPrices[i].innerHTML) * discount);
+        }
+    }
+}
+
+var theSpan = document.getElementsByTagName("span");
 
 //Method calls:
+HappyHourDiscount();
 
 //Adjust price function: (add .toFixed(2) for 2 decimals):
 
@@ -9,7 +24,6 @@
 /*Add todays offer function. 
 Make price background red. 
 Reduce price by another 20%:*/
-
 
 /*Stretch exercises: (increasing tuffness for each number!)
 
