@@ -5,9 +5,9 @@ var discount = 0.30;
 var today = new Date;
 
 function HappyHourDiscount() {
-    if (today.getHours() >= 17 && today.getHours() <= 20) {
+    if (today.getHours() >= 12 && today.getHours() <= 20) {
         for (var i = 0; i < allPrices.length; i++) {
-            allPrices[i].innerHTML = Number(allPrices[i].innerHTML) - (Number(allPrices[i].innerHTML) * discount);
+            allPrices[i].innerHTML = Number(allPrices[i].innerHTML) - (Number(allPrices[i].innerHTML) * discount).toFixed(2);
         }
     }
 }
@@ -37,13 +37,15 @@ Make price background red.
 Reduce price by another 20%:*/
 
 function todaysOffer() {
-    var weekDays = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
+    var backgroundcolor = "red";
+    var weekDays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     var todaysExtraDiscount = document.getElementById(weekDays[today.getDay()]).innerHTML;
     todaysExtraDiscount = Number(todaysExtraDiscount) - (Number(todaysExtraDiscount) * 0.2);
     document.getElementById(weekDays[today.getDay()]).innerHTML = todaysExtraDiscount.toFixed(2);
 
     var todaysSpecielOffer = document.getElementById(weekDays[today.getDay()]);
-    todaysSpecielOffer.className += " " + "todaysOfferColor";
+    todaysSpecielOffer.style.backgroundColor = backgroundcolor;
+    
 }
 
 /*Add todays offer function. 
